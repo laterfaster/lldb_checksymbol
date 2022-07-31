@@ -34,4 +34,4 @@ def CheckSymbol(debugger, command, result, internal_dict):
                     interpreter.HandleCommand('im loo -a ' + addr_detail[0:-1],adetail)
                     if adetail.HasResult():
                         sadetail = adetail.GetOutput()
-                        print(addr_detail, '<' +sadetail.split('\n')[1][14::], '>','\t', symbol_addr, '\t',sdetail.split('\n')[1][14::])
+                        print(addr_detail, '<' +sadetail.split('Summary:')[1].replace('\n', ''), '>','\t', symbol_addr, ':',sdetail.split('Summary:')[1].replace('\n', ''))
