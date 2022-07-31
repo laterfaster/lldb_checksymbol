@@ -31,7 +31,7 @@ lldb, python-lldb
 
 (lldb) `checksymbol address n`
 
-**只接受两个参数**：内存地址**address**和字节数**n**，然后在终端上输出内存地址**address**接下来**n**字节的内存地址，内存内容及其描述。
+**只接受两个参数**：内存地址**address**和字节数**n**，然后在终端上输出内存地址 **address** 接下来 **n** 字节的内存地址，内存内容及其描述。
 
 ## Reference:
 
