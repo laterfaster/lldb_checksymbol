@@ -3,6 +3,10 @@
 
 ## Introduction
 
+### Dependencies:
+
+lldb, python-lldb
+
 ### Preparations:
   
 Extract the project file to your `~/`  
@@ -14,6 +18,10 @@ Extract the project file to your `~/`
 **Just accepts two parameters**: memory **address** and the number of bytes **n**, and then prints the following **n** bytes of memory **address**, contents and descriptions of them on the terminal.
 
 ## 使用说明：
+
+### 依赖
+
+lldb, python-lldb
 
 ### 准备工作：
 
