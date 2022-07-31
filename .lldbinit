@@ -1,0 +1,4 @@
+settings set target.x86-disassembly-flavor intel
+settings set target.skip-prologue false
+command script import ~/lldbPy/checksymbol.py
+command alias reload_script command source ~/.lldbinit
