@@ -1,21 +1,25 @@
 # lldb_checksymbol
 ## Customize the debugging command for LLDB
 
-Preparations:
+## Introduction
 
-Extract the project file to your `~/`
+### Preparations:
+  
+Extract the project file to your `~/`  
 
-准备工作：
-
-将项目文件解压至 `~/`
-
-* checksymbol command usage: 
+### checksymbol command usage: 
 
 (lldb) `checksymbol address n`
 
 **Just accepts two parameters**: memory **address** and the number of bytes **n**, and then prints the following **n** bytes of memory **address**, contents and descriptions of them on the terminal.
 
-* checksymbol命令的用法:
+## 使用说明：
+
+### 准备工作：
+
+将项目文件解压至 `~/`
+
+### checksymbol命令的用法:
 
 (lldb) `checksymbol address n`
 
