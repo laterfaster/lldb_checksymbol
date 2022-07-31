@@ -1,6 +1,14 @@
 # lldb_checksymbol
 ## Customize the debugging command for LLDB
 
+Preparations:
+
+Extract the project file to your `~/`
+
+准备工作：
+
+将项目文件解压至 `~/`
+
 * checksymbol command usage: 
 
 (lldb) `checksymbol address n`
