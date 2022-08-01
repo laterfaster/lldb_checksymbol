@@ -1,5 +1,5 @@
 # lldb_checksymbol
-## Customize the debugging command for LLDB
+## Custom debugging command for LLDB
 
 ## Introduction
 
