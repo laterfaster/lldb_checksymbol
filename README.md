@@ -15,7 +15,7 @@ Extract the project file to your `~/`
 
 (lldb) `checksymbol address n`
 
-**Just accepts two parameters**: memory **address** and the number of bytes **n**, and then prints the following **n** bytes of memory **address**, contents and descriptions of them on the terminal.
+**Just accepts two arguments**: memory **address** and the number of bytes **n**, and then prints the following **n** bytes of memory **address**, contents and descriptions of them on the terminal.
 
 ## 使用说明：
 
